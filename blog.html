@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- link to CSS file -->
+</head>
+<body>
+    <!--- navigation bar start here--->
+   <header>
+    <div class="logo">
+        <h1>VILLAPARK</h1>
+    </div>
+        <nav>
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="rooms.html">Room</a></li>
+                 <li><a href="services.html">Services</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="booking.html">Booking</a></li>
+                 <li><a href="blog.html">Blog</a></li>
+                </ul>
+        </nav>
+</header>
+<!--- navigation bar end here--->
+
+    <h1>Welcome to my Website</h1>
+    <p>This is a simple website created using HTML, CSS, and JavaScript.</p>
+    <p>Feel free to explore and modify the code to suit your needs.</p>
+    <p>Enjoy your stay!</p>
+    
+    <button id="changeColorButton">Change Background Color</button>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a web developer and designer, currently working remotely.</p>
+        <p>I've been enjoying the journey of learning and creating websites for the past few years.</p>
+        <p>Feel free to reach out if you need help with any projects or have any questions.</p>
+    </section>
+    <section>
+        <h2>My Projects</h2>
+        <ul>
+            <li>Website Development</li>
+            <li>UI/UX Design</li>
+            <li>Content Writing</li>
+        </ul>
+        <p>I'm always looking for new opportunities to work on projects that bring joy and fulfillment to my clients.</p
+    </section>
+    
+    <script src="script.js">
+        // JavaScript code goes here
+        // Example: changing the background color
+        document.body.style.backgroundColor = "lightblue";
+        
+        // Example: adding a click event listener to a button
+        const button = document.getElementById("changeColorButton");
+        button.addEventListener("click", function() {
+            document.body.style.backgroundColor = "red";
+        });
+        
+    </script> <!-- link to JavaScript file -->
+    
+</body>
+</html>
